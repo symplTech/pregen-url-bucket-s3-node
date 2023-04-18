@@ -1,0 +1,23 @@
+{
+  "name": "image-upload-basic-service",
+  "version": "1.0.0",
+  "description": "Image uploading service - limit image upload to 1MB using S3 bucket",
+  "main": "basic_service.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sympl",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.315.0",
+    "@aws-sdk/client-s3-node": "^0.1.0-preview.2",
+    "@aws-sdk/credential-provider-ini": "^3.315.0",
+    "@aws-sdk/s3-presigned-post": "^3.315.0",
+    "@aws-sdk/s3-request-presigner": "^3.315.0",
+    "aws-sdk": "^2.1359.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "multer": "^1.4.5-lts.1",
+    "multer-s3": "^3.0.1"
+  }
+}
